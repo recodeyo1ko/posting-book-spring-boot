@@ -3,7 +3,7 @@
 {
   "name": "Java",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
 
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
@@ -14,7 +14,15 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["vmware.vscode-spring-boot"]
+      "extensions": [
+        "vmware.vscode-boot-dev-pack",
+        "rangav.vscode-thunder-client",
+        "esbenp.prettier-vscode",
+        "oderwat.indent-rainbow",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "vscjava.vscode-java-pack"
+      ]
     }
   }
 

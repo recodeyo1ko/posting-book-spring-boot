@@ -2,11 +2,11 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Spring Boot-DemoApplication<demo>",
+      "name": "Spring Boot-BookApplication<book>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "mainClass": "com.example.demo.DemoApplication",
-      "projectName": "demo",
+      "mainClass": "book.book.BookApplication",
+      "projectName": "book",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
