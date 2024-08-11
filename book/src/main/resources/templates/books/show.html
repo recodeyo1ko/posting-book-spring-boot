@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Books</title>
+  </head>
+  <body>
+    <p><strong>Title: </strong><div th:text="${book.title}"></div></p>
+    <p><strong>Body: </strong><div th:text="${book.body}"></div></p>
+
+    <div>Edit</div>
+    |
+    <div>Back</div>
+  </body>
+</html>
