@@ -4,11 +4,17 @@
     <title>Books</title>
   </head>
   <body>
-    <p><strong>Title: </strong><div th:text="${book.title}"></div></p>
-    <p><strong>Body: </strong><div th:text="${book.body}"></div></p>
+    <strong>Title: </strong>
+    <div th:text="${book.title}"></div>
+    <strong>Body: </strong>
+    <div th:text="${book.body}"></div>
 
-    <div>Edit</div>
+    <span>
+      <a th:href="@{/books/{id}/edit(id=${book.id})}">Edit</a>
+    </span>
     |
-    <div>Back</div>
+    <span>
+      <a th:href="@{/books}">Back</a>
+    </span>
   </body>
 </html>

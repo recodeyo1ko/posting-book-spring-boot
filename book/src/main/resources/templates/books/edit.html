@@ -15,6 +15,10 @@
   <button type="submit">Update</button>
 </form>
 
-<div>Edit</div>
+<span>
+  <a th:href="@{/books/{id}(id=${book.id})}">Show</a>
+</span>
 |
-<div>Back</div>
+<span>
+  <a th:href="@{/books}">Back</a>
+</span>
